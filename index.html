@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.4 Теги button, input, table</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Общая информация</legend>
+            <table>
+                <tr>
+                    <td><label for="last_name">Фамилия</label></td>
+                    <td><input type="text" name="last_name" id="last_name" placeholder="Иванов"> 
+                    </input></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Имя</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Иван">
+                    </input></td>
+                </tr>
+                <tr>
+                    <td><label for="second_name">Отчество</label></td>
+                    <td><input type="text" name="second_name" id="second_name" placeholder="Иванович">
+                    </input></td>
+                </tr>
+            
+                <tr>
+                    <td><label for="e-mail">email</label></td>
+                    <td><input type="e-mail" name="e-mail" id="e-mail" placeholder="mail@mail.ru">
+                    </input></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Пол</legend>
+                <input type="radio" name="gender">М</label>
+                <input type="radio" name="gender">Ж</label>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Хобби</legend>
+                <input type="checkbox" name="hobby">Рисование</label>
+                <input type="checkbox" name="hobby">Чтение</label>
+                <input type="checkbox" name="hobby">Вязание</label>
+                <input type="checkbox" name="hobby">Кулинария</label>
+        </fieldset>
+    </form>
+    <br>    
+
+        
+        <div>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </div>    
+</body>
+</html>
